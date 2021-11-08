@@ -14,3 +14,17 @@ double length(Coord3D *p)
     result = sqrt(x+y+z);
     return result;
 }
+
+Coord3D * fartherFromOrigin(Coord3D *p1, Coord3D *p2)
+{
+    if(length(p1) > length(p2))
+    {
+        return p1;
+    }
+    else
+    {
+        return p2;
+    }
+    
+    
+}

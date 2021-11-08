@@ -10,7 +10,8 @@ funcs.o: funcs.cpp funcs.h coord3d.h
 
 main.o: main.cpp funcs.h coord3d.h
 
-tests.o: tests.cpp doctest.h funcs.h
+tests.o: tests.cpp doctest.h funcs.h coord3d.h
+	g++ -c tests.cpp -std=c++11
 
 clean:
 	rm -f main.o funcs.o tests.o
