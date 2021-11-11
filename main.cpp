@@ -37,7 +37,6 @@ int main()
 
   std::cout<<"\n---------------------\n";
   std::cout<<"Task E \n";
-  double x, y, z;
   std::cout << "Position: 10, 20, 30 \n";
   Coord3D *ppos = createCoord3D(10, 20, 30);
   std::cout << "Velocity: 5.5, -1.4, 7.77 \n";
