@@ -11,7 +11,7 @@ int main() {
     while(true) {
         string *p;
         p = createAPoemDynamically();
-        cout<<p<<endl;
+        cout<<*p<<endl;
 
         // assume that the poem p is not needed at this point
         delete p;
